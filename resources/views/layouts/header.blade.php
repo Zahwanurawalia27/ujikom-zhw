@@ -29,7 +29,7 @@
 					<li><a href="/about">About</a></li>
 					<li><a href="/gallery">Gallery</a></li>
 					<li><a href="/upload">Upload Image</a></li>
-					<li><a href="">Login</a></li>
+					<li><a href="/login">Login</a></li>
 					<li><a href="/blog.html">Blog</a>
 						<ul class="sub__menu">
 							<li><a href="./blog-single.html">Blog Single</a></li>

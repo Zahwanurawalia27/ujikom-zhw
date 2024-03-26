@@ -23,6 +23,9 @@
 	<!-- Main Stylesheets -->
 	<link rel="stylesheet" href="{{ asset ('assets/css/style.css') }}"/>
 
+	<!-- boxicons -->
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
 
 
 	<!--[if lt IE 9]>
