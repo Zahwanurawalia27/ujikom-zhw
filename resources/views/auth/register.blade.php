@@ -15,7 +15,7 @@
 
         <div class="wrapper">
             <form action="">
-                <h1>Login</h1>
+                <h1>Register</h1>
                 <div class="inputLog">
                     <input type="text" name="" id="" placeholder="Username" required>
                     <i class="bx bxs-user"></i>
@@ -24,11 +24,23 @@
                     <input type="password" placeholder="Password" required>
                     <i class="bx bxs-lock-alt"></i>
                 </div>
+                <div class="inputLog">
+                    <input type="text" name="" id="" placeholder="Email" required>
+                    <i class='bx bxs-envelope'></i>
+                </div>
+                <div class="inputLog">
+                    <input type="text" name="" id="" placeholder="Nama Lengkap" required>
+                    <i class="bx bxs-user"></i>
+                </div>
+                <div class="inputLog">
+                    <input type="text" name="" id="" placeholder="Alamat" required>
+                    <i class='bx bxs-home'></i>
+                </div>
                 
-                <button type="submit" class="btnLog">Login</button>
+                <button type="submit" class="btnLog">Register</button>
 
                 <div class="register-link">
-                    <p>Don't have any account? <a href="/register">Register</a></p>
+                    <p>Have any account? <a href="/login">Login</a></p>
                 </div>
             </form>
         </div>
