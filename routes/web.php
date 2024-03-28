@@ -38,3 +38,6 @@ Route::get('/register', function () {
 Route::get('/dashboard', function () {
     return view('admin.dashboard');
 });
+Route::get('/admin', function () {
+    return view('admin.layout.mainn');
+});
