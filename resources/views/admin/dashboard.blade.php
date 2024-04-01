@@ -1,2 +1,6 @@
-@extends('admin.layout.mainn')
+@extends('admin.mainn')
 
+@section('content')
+
+
+@endsection
