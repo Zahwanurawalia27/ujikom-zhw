@@ -41,3 +41,6 @@ Route::get('/dashboard', function () {
 Route::get('/admin', function () {
     return view('admin.mainn');
 });
+Route::get('/dataFoto', function () {
+    return view('admin.dataFoto.dataFoto');
+});

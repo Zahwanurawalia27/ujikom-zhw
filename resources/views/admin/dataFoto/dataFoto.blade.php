@@ -1,27 +1,24 @@
 @extends('admin.mainn')
 
 @section('content')
-
-<div class="main-content">
-        <section class="section">
-        <div class="row">
-            <div class="col-md-8">
               <div class="card">
                 <div class="card-header">
                   <h4>Invoices</h4>
                   <div class="card-header-action">
-                    <a href="#" class="btn btn-danger">View More <i class="fas fa-chevron-right"></i></a>
+                    <a href="#" class="btn btn-danger">Tambah Foto <i class="fas fa-chevron-right"></i></a>
                   </div>
                 </div>
                 <div class="card-body p-0">
                   <div class="table-responsive table-invoice">
                     <table class="table table-striped">
                       <tr>
-                        <th>Invoice ID</th>
-                        <th>Customer</th>
-                        <th>Status</th>
-                        <th>Due Date</th>
-                        <th>Action</th>
+                        <th>Foto ID</th>
+                        <th>Judul Foto</th>
+                        <th>Deskripsi</th>
+                        <th>Tanggal Unggah</th>
+                        <th>Lokasi File</th>
+                        <th>Album ID</th>
+                        <th>User ID</th>
                       </tr>
                       <tr>
                         <td><a href="#">INV-87239</a></td>
@@ -71,9 +68,6 @@
                     </table>
                   </div>
                 </div>
-              </div>
-            </div>
-        </section>
-      </div>
 
+              
 @endsection

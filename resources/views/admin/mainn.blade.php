@@ -46,13 +46,10 @@
           <br>
           <br>
         <div class="row">
-            <div class="col-md-8">
-              <div class="card">
-                <div class="card-body p-0">
-                  
-                  
-                </div>
-              </div>
+            <div class="col-md-12">
+              <div class="">
+                @yield('content')
+              </div> 
             </div>
         </section>
       </div>

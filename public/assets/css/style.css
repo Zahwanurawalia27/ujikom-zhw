@@ -1308,3 +1308,6 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 /* Style Tampilan ADMIN */
+.bodyAdmin {
+	background-color: #673ab7;
+}
