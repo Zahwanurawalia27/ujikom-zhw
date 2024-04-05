@@ -44,3 +44,6 @@ Route::get('/admin', function () {
 Route::get('/dataFoto', function () {
     return view('admin.dataFoto.dataFoto');
 });
+Route::get('/tambahFoto', function () {
+    return view('admin.dataFoto.tambahFoto');
+});
